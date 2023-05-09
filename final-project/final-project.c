@@ -1,5 +1,7 @@
 /* This files provides address values that exist in the system */
-//for best results copy the code on https://cpulator.01xz.net/?sys=arm-de1soc (make sure to click C) and run to demo.
+//for best results copy the code on https://cpulator.01xz.net/?sys=arm-de1soc (make sure to change the language to C and use the VGA pixel buffer, 
+//PS/2 keyboard or mouse and seven segement display) and run to demo, the arrows move the car and the 7-seg shows the number of cars dodged. When
+// you crash, the game ends.
 
 #define SDRAM_BASE            0xC0000000
 #define FPGA_ONCHIP_BASE      0xC8000000
