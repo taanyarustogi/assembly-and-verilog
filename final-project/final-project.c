@@ -1,4 +1,5 @@
 /* This files provides address values that exist in the system */
+//for best results copy the code on https://cpulator.01xz.net/?sys=arm-de1soc (make sure to click C) and run to demo.
 
 #define SDRAM_BASE            0xC0000000
 #define FPGA_ONCHIP_BASE      0xC8000000
